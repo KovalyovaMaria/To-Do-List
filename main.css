@@ -1,0 +1,84 @@
+
+body{   
+        margin: 0;
+        background-image: url(./assets/img/img_background.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+      
+}
+body .conteiner{
+    margin: auto;
+    max-width: 1920px ;
+}
+body .conteiner  h1{
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center;
+    background-image: linear-gradient(to left, #351e76 15%, #e8d0ff 70%);
+    color: transparent;
+    background-clip: text;
+}
+body .conteiner .input-panel{
+    display: flex;
+    justify-content: center;
+}
+body .conteiner .input-panel input{
+   display: flex;
+   height: 30px;
+   width: 45%;
+   color: rgba(99, 50, 116, 0.876);
+   font-size: 20px;
+   margin-right: 5% ;
+   outline: none;
+   border: 1px solid rgba(99, 50, 116, 0.876);
+}
+body .conteiner .input-panel button{
+    background: linear-gradient(to left, #351e76 , #e8d0ff );
+    border: none;
+    text-align: center;
+    font-size: medium;
+    color: whitesmoke;
+    border: 1px solid rgba(99, 50, 116, 0.876);
+}  
+
+.task {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    border: 1px solid rgba(99, 50, 116, 0.876);
+    height: 30px;
+    width: 60%;
+    margin: 15px auto;
+    background: linear-gradient(to left, #351e76 , #e8d0ff );
+  }
+.task button{
+    
+    width: 30px;
+    height: 25px;
+    border: none;
+    background-image: url(./assets/img/img_delete.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  
+}
+
+ .task p {
+    position: absolute;
+    margin: 20px;
+    
+}
+.checkbox{
+    background-color: #351e76;
+}
+
+    .completed {
+        background: none;
+    }
+
+   .completed p {
+       color: white;
+        text-decoration: line-through;
+    }
