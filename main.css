@@ -36,7 +36,6 @@ body .conteiner .input-panel input{
 }
 body .conteiner .input-panel button{
     background: linear-gradient(to left, #351e76 , #e8d0ff );
-    border: none;
     text-align: center;
     font-size: medium;
     color: whitesmoke;
@@ -46,7 +45,7 @@ body .conteiner .input-panel button{
 .task {
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-between;
     border: 1px solid rgba(99, 50, 116, 0.876);
     height: 30px;
     width: 60%;
@@ -54,7 +53,6 @@ body .conteiner .input-panel button{
     background: linear-gradient(to left, #351e76 , #e8d0ff );
   }
 .task button{
-    
     width: 30px;
     height: 25px;
     border: none;
@@ -80,5 +78,20 @@ body .conteiner .input-panel button{
 
    .completed p {
        color: white;
-        text-decoration: line-through;
-    }
+       text-decoration: line-through;
+   }
+body .conteiner .help-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 40px 60px;
+}
+body .conteiner  .help-buttons button{
+    width: 142px;
+    height: 25px;
+    background: linear-gradient(to left, #351e76 , #e8d0ff );
+    text-align: center;
+    font-size: medium;
+    color: whitesmoke;
+    border: 1px solid rgba(99, 50, 116, 0.876);
+}
