@@ -20,6 +20,16 @@ body .conteiner  h1{
     color: transparent;
     background-clip: text;
 }
+div.all-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    color: #351e76;
+}
+
 body .conteiner .input-panel{
     display: flex;
     justify-content: center;
@@ -66,32 +76,19 @@ body .conteiner .input-panel button{
  .task p {
     position: absolute;
     margin: 20px;
-    
 }
 .checkbox{
     background-color: #351e76;
 }
-
-    .completed {
-        background: none;
-    }
-
-   .completed p {
-       color: white;
-       text-decoration: line-through;
-   }
-body .conteiner .help-buttons{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 40px 60px;
+.completed {
+    padding: 5px 10px;
 }
-body .conteiner  .help-buttons button{
-    width: 142px;
-    height: 25px;
-    background: linear-gradient(to left, #351e76 , #e8d0ff );
+select {
+    background: linear-gradient(to left, #351e76, #e8d0ff);
     text-align: center;
     font-size: medium;
     color: whitesmoke;
     border: 1px solid rgba(99, 50, 116, 0.876);
+    padding: 10px;
+
 }
