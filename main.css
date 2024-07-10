@@ -19,6 +19,7 @@ body .conteiner  h1{
     background-image: linear-gradient(to left, #351e76 15%, #e8d0ff 70%);
     color: transparent;
     background-clip: text;
+    margin: 10px;
 }
 div.all-count{
     display: flex;
@@ -36,11 +37,11 @@ body .conteiner .input-panel{
 }
 body .conteiner .input-panel input{
    display: flex;
-   height: 30px;
+   height: 38px;
    width: 45%;
    color: rgba(99, 50, 116, 0.876);
    font-size: 20px;
-   margin-right: 5% ;
+   margin-right: 5%;
    outline: none;
    border: 1px solid rgba(99, 50, 116, 0.876);
 }
@@ -90,5 +91,5 @@ select {
     color: whitesmoke;
     border: 1px solid rgba(99, 50, 116, 0.876);
     padding: 10px;
-
+    border-radius: 0 ;
 }

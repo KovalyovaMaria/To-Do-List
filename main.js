@@ -9,6 +9,10 @@ filterOption.addEventListener("change", filterTodo);
 addTaskBtn.addEventListener("click", addTaskHandler);
 taskList.addEventListener("click", changeTaskState);
 
+taskNameInput.addEventListener("keydown", function (e) {
+    if (e.code == "Enter") addTaskHandler();
+})
+
 function createTask(text) {
     let div = document.createElement("div");
     div.classList.add("task");
